@@ -1,0 +1,25 @@
+.button-container{
+    background-color: #0D1137;
+    border-radius: 30px;
+    padding: 10px 20px;
+    /* width: fit-conten; */
+}
+.button-container:hover {
+    background-color: #E52165;
+}
+.button-text{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFDFD;
+}
+
+@media only screen and (max-width: 1000px) {
+    .button-text{
+        font-size: 20px;
+    }
+    
+  }
